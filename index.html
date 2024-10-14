@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Wishes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="envelope" id="envelope">
+        <img src="envelope.png.jpg" alt="Envelope" class="envelope-img">
+        <button onclick="openCard()" class="open-btn">Click to Open</button>
+    </div>
+
+    <div class="card" id="card" style="display:none;">
+        <img src="image1.jpg" alt="Background" class="background-img">
+        <div class="quote">
+            <p id="quote-text">"Two years of entwined hearts, infinite memories crafted. With every sunrise, our connection deepens. Your gaze is my sanctuary, my soul's refuge. Your love illuminates life's journey, through trials and triumphs. Together, we've woven a tapestry of laughter, tears, and exploration. Forever bound, my heart beats for you. Happy 2nd anniversary, my beloved. May our path continue to unfold with harmony, excitement, and an unrelenting love..."</p>
+        </div>
+    </div>
+
+    <audio id="bg-audio" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
